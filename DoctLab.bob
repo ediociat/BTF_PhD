@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
   <name>Display</name>
+  <width>919</width>
   <widget type="label" version="2.0.0">
     <name>Label_1</name>
     <class>TITLE</class>
@@ -8,7 +9,7 @@
     <x use_class="true">0</x>
     <y use_class="true">0</y>
     <width>798</width>
-    <height>58</height>
+    <height>40</height>
     <font use_class="true">
       <font name="Header 1" family="Liberation Sans" style="BOLD" size="22.0">
       </font>
@@ -28,26 +29,10 @@
       </action>
     </actions>
     <text>List of interesting PVs</text>
-    <x>109</x>
-    <y>512</y>
+    <x>808</x>
+    <y>147</y>
     <width>175</width>
     <tooltip>$(actions)</tooltip>
-  </widget>
-  <widget type="picture" version="2.0.0">
-    <name>Picture</name>
-    <file>layout_btf.pdf</file>
-    <x>25</x>
-    <y>42</y>
-    <width>690</width>
-    <height>424</height>
-  </widget>
-  <widget type="picture" version="2.0.0">
-    <name>Picture_1</name>
-    <file>BTF_layout.png</file>
-    <x>52</x>
-    <y>43</y>
-    <width>658</width>
-    <height>408</height>
   </widget>
   <widget type="action_button" version="3.0.0">
     <name>Action Button_2</name>
@@ -59,8 +44,39 @@
       </action>
     </actions>
     <text>Let's start!</text>
-    <x>561</x>
-    <y>512</y>
+    <x>808</x>
+    <y>502</y>
+    <width>175</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
     <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <actions>
+      <action type="open_webpage">
+        <description>Open Web Page</description>
+        <url>https://btf-archiver.k8sda.lnf.infn.it/mgmt/ui/index.html</url>
+      </action>
+    </actions>
+    <text>Link to Archiver</text>
+    <x>808</x>
+    <y>314</y>
+    <width>175</width>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>Picture_1</name>
+    <file>BTFlayout.png</file>
+    <y>57</y>
+    <width>820</width>
+    <height>529</height>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>Picture</name>
+    <file>BTflogo.png</file>
+    <x>789</x>
   </widget>
 </display>
